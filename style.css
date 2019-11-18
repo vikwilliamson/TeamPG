@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto;
+    width: 33%;
+    border-bottom: 2px solid white;
+}
